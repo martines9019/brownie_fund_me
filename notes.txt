@@ -1,0 +1,7 @@
+
+FORK option 1
+brownie networks add development mainnet-fork-dev cmd=ganache-cli host=http://127.0.0.1 fork='https://mainnet.infura.io/v3/$WEB3_INFURA_PROJECT_ID' accounts=10 mnemonic=brownie port=8545
+
+Fork option 2 (recommended) - at fork use alchemy.com created API view key
+
+brownie networks add development mainnet-fork-dev cmd=ganache-cli host=http://127.0.0.1 fork=https://eth-mainnet.alchemyapi.io/v2/lPIrZD-ZaqLeDci3uys0HCx6LqoDvnWv accounts=10 mnemonic=brownie port=8545
